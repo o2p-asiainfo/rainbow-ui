@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<pie>
+  <slice title="亚洲" pull_out="true" url="http://www.doone.com.cn" description="点击钻取">44.579</slice>
+  <slice title="非洲" label_radius="100">30.065</slice>
+  <slice title="北美洲">24.256</slice>
+  <slice title="南美洲" pull_out="true" color="#FCD202">17.819</slice>
+  <slice title="北极洲">13.209</slice>
+  <slice title="欧洲">9.938</slice>
+  <slice title="大洋洲">7.687</slice>
+</pie>

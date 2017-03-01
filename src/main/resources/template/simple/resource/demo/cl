@@ -1,0 +1,48 @@
+
+
+
+
+	<script type="text/javascript" src="../src/jquery.tabs.js"></script>
+	<script type="text/javascript" src="../src/jquery.accordion.js"></script>
+	<script type="text/javascript" src="../src/jquery.calendar.js"></script>
+	<script type="text/javascript" src="../src/jquery.combo.js"></script>
+	<script type="text/javascript" src="../src/jquery.combobox.js"></script>
+	<script type="text/javascript" src="../src/jquery.combogrid.js"></script>
+	<script type="text/javascript" src="../src/jquery.combotree.js"></script>
+	<script type="text/javascript" src="../src/jquery.datagrid.js"></script>
+	<script type="text/javascript" src="../src/jquery.datebox.js"></script>
+	<script type="text/javascript" src="../src/jquery.datetimebox.js"></script>
+	<script type="text/javascript" src="../src/jquery.dialog.js"></script>
+	<script type="text/javascript" src="../src/jquery.dmenu.js"></script>
+	<script type="text/javascript" src="../src/jquery.draggable.js"></script>
+	<script type="text/javascript" src="../src/jquery.droppable.js"></script>
+	
+	<script type="text/javascript" src="../src/jquery.form.js"></script>
+	<script type="text/javascript" src="../src/jquery.linkbutton.js"></script>
+	<script type="text/javascript" src="../src/jquery.menu.js"></script>
+	<script type="text/javascript" src="../src/jquery.menubutton.js"></script>
+	<script type="text/javascript" src="../src/jquery.messager.js"></script>
+
+	<script type="text/javascript" src="../src/jquery.pagination.js"></script>
+
+	<script type="text/javascript" src="../src/jquery.parser.js"></script>
+	<script type="text/javascript" src="../src/jquery.shadow.js"></script>
+	<script type="text/javascript" src="../src/jquery.validatebox.js"></script>
+	
+	<script type="text/javascript" src="../src/jquery.spinner.js"></script>
+
+	<script type="text/javascript" src="../src/jquery.splitbutton.js"></script>
+	<script type="text/javascript" src="../src/jquery.timespinner.js"></script>
+
+	<script type="text/javascript" src="../src/jquery.tree.js"></script>
+	<script type="text/javascript" src="../src/jquery.treegrid.js"></script>
+
+<script type="text/javascript" src="../src/jquery.numberbox.js"></script>
+<script type="text/javascript" src="../src/jquery.numberspinner.js"></script>
+<script type="text/javascript" src="../src/jquery.numberTextBox.js"></script>
+<script type="text/javascript" src="../src/jquery.window.js"></script>
+<script type="text/javascript" src="../src/easyloader.js"></script>
+
+		
+			
+			

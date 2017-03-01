@@ -1,0 +1,57 @@
+.comm-alert-box {
+	BACKGROUND: url(bottom-left-w.gif) no-repeat left bottom
+}
+.comm-alert-box-outer {
+	BACKGROUND: url(bottom-right-w.gif) no-repeat right bottom
+}
+.comm-alert-box-inner {
+	BACKGROUND: url(top-left-w.gif) no-repeat left top
+}
+.comm-alert-box P {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: url(top-right-w.gif) no-repeat right top; PADDING-BOTTOM: 15px; MARGIN: 0px; PADDING-TOP: 10px
+}
+.comm-alert-box DIV {
+	LINE-HEIGHT: 19px; TEXT-ALIGN: left; WORD-WRAP: break-word;FONT-SIZE: 12px;
+}
+
+
+.comm-alert-box-t {
+	BACKGROUND: url(bottom-left-t.gif) no-repeat left bottom; LEFT: 252px; POSITION: absolute; TOP: -8px
+}
+.comm-alert-box-outer-t {
+	BACKGROUND: url(bottom-right-t.gif) no-repeat right bottom
+}
+.comm-alert-box-inner-t {
+	BACKGROUND: url(top-left-t.gif) no-repeat left top
+}
+.comm-alert-box-t P {
+	PADDING-RIGHT: 10px; PADDING-LEFT: 20px; BACKGROUND: url(top-right-t.gif) no-repeat right top; PADDING-BOTTOM: 15px; MARGIN: 0px; LINE-HEIGHT: 2em; PADDING-TOP: 10px
+}
+.comm-alert-box-t SPAN {
+	PADDING-RIGHT: 20px; DISPLAY: block; PADDING-LEFT: 20px; BACKGROUND: url(top-right-t.gif) no-repeat right top; PADDING-BOTTOM: 10px; PADDING-TOP: 10px
+}
+
+
+
+
+.comm-alert-box-b {
+	BACKGROUND: url(top-right-w-b.gif) no-repeat right top
+}
+.comm-alert-box-outer-b {
+	BACKGROUND: url(bottom-right-w-b.gif) no-repeat right bottom
+}
+.comm-alert-box-inner-b {
+	BACKGROUND: url(top-left-w-b.gif) no-repeat left top
+}
+.comm-alert-box-b P {
+	PADDING-RIGHT: 20px; PADDING-LEFT: 20px; BACKGROUND: url(bottom-left-w-b.gif) no-repeat left bottom; PADDING-BOTTOM: 15px; MARGIN: 0px; PADDING-TOP: 10px
+}
+.comm-alert-box-b DIV {
+	WORD-BREAK: break-all; LINE-HEIGHT: 19px; TEXT-ALIGN: left; WORD-WRAP: break-word;FONT-SIZE: 12px;
+}
+
+
+
+.comm-alert-input {
+	BORDER-RIGHT: #dd7870 1px solid; BORDER-TOP: #dd7870 1px solid; BACKGROUND: url(ccts_bg.gif) #fff repeat-x 50% bottom; BORDER-LEFT: #dd7870 1px solid; COLOR: #333; BORDER-BOTTOM: #dd7870 1px solid; 
+}

@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.0//EN" "http://struts.apache.org/dtds/struts-2.0.dtd">
+	
+<struts>
+	<package name="commPackage" extends="default" namespace="/rainbowui">
+
+		<!-- servlet转换调用 -->
+		<action name="servlet" method="servlet" class="com.linkage.rainbow.ui.views.action.CommAction">
+			<result name="success" type="httpheader"></result>
+		</action>
+
+		 
+		<action name="autocomplete_url" method="execute" class="com.linkage.rainbow.ui.views.action.AutoCompleteAction">
+			<result name="success" type="httpheader"></result>
+		</action>
+		
+		<action name="combotree_url" method="execute" class="com.linkage.rainbow.ui.views.action.ComboTreeAction">
+			<result name="success" type="httpheader"></result>
+		</action>
+		
+		<action name="combobox_url" method="execute" class="com.linkage.rainbow.ui.views.action.ComboboxAction">
+			<result name="success" type="httpheader"></result>
+		</action>
+		
+		<action name="getGridData" class="com.linkage.rainbow.ui.views.action.GridAction" method="getGridData">
+			<result name="success" type="httpheader"></result>
+		</action>
+		
+		<action name="getTreeData" class="com.linkage.rainbow.ui.views.action.TreeAction" method="getTreeData">
+			<result name="success" type="httpheader"></result>
+		</action>
+		
+		<action name="getMulSelectBoxData" class="com.linkage.rainbow.ui.views.action.MultiSelectBoxAction" method="getMulSelectBoxData">
+			<result name="success" type="httpheader"></result>
+		</action>
+		
+		<action name="getSelectBoxData" class="com.linkage.rainbow.ui.views.action.SelectBoxAction" method="getSelectBoxData">
+			<result name="success" type="httpheader"></result>
+		</action>
+		
+		<action name="getGridEasyData" class="com.linkage.rainbow.ui.views.action.GridAction" method="getGridEasyData">
+			<result name="success" type="httpheader"></result>
+		</action>
+		
+		<action name="getSelectedTreeData" class="com.linkage.rainbow.ui.views.action.SelectedTreeAction" method="getSelectedTreeData">
+			<result name="success" type="httpheader"></result>
+		</action>
+			
+		<action name="getGridTreeData" class="com.linkage.rainbow.ui.views.action.GridAction" method="getGridTreeData">
+			<result name="success" type="httpheader"></result>
+		</action>
+	</package>
+</struts>

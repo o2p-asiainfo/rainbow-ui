@@ -1,0 +1,26 @@
+.fenye * {
+	font: 12px/1.5  'Microsoft Yahei',Tahoma, 'Simsun';
+	color: #333;
+}
+.fenye {
+	MARGIN-TOP: 5px; MARGIN-BOTTOM: 10px;TEXT-ALIGN: right;
+}
+.fenye A {
+	BORDER-RIGHT: #68A2CE 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #68A2CE 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #68A2CE 1px solid; COLOR: #000 !important; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #68A2CE 1px solid; TEXT-DECORATION: none;
+}
+.fenye A:hover {
+	BORDER-RIGHT: #E37100 1px solid ; PADDING-RIGHT: 5px; BORDER-TOP: #E37100 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #E37100 1px solid; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #E37100 1px solid
+}
+.fenye A:active {
+	BORDER-RIGHT: #E37100 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #E37100 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #E37100 1px solid; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #E37100 1px solid
+}
+.fenye a.curr {
+	BORDER-RIGHT: #E37100 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #E37100 1px solid; PADDING-LEFT: 5px; FONT-WEIGHT: bold; PADDING-BOTTOM: 2px; BORDER-LEFT: #E37100 1px solid; COLOR: #ffffff !important; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #E37100 1px solid; BACKGROUND-COLOR: #F39C18;
+}
+.fenye SPAN.disabled {
+	BORDER-RIGHT: #ccc 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #ccc 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #ccc 1px solid; COLOR: #ccc; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #ccc 1px solid
+}
+
+.fenye .disabled {
+	BORDER-RIGHT: #DEDEDE 1px solid; PADDING-RIGHT: 5px; BORDER-TOP: #DEDEDE 1px solid; PADDING-LEFT: 5px; PADDING-BOTTOM: 2px; BORDER-LEFT: #DEDEDE 1px solid; COLOR: #A0A0A0 !important; MARGIN-RIGHT: 2px; PADDING-TOP: 2px; BORDER-BOTTOM: #DEDEDE 1px solid; TEXT-DECORATION: none;background-color:#F4F4F4;
+}

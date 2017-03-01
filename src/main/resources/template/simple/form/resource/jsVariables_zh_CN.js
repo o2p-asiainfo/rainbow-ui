@@ -1,0 +1,9 @@
+var ajaxValidator_onwait="\u6b63\u5728\u7b49\u5f85\u670d\u52a1\u5668\u8fd4\u56de\u6570\u636e";
+var ajaxValidator_onerror="\u6b63\u5728\u7b49\u5f85\u670d\u52a1\u5668\u8fd4\u56de\u6570\u636e";
+var formValidator_onfocus="\u8bf7\u8f93\u5165\u5185\u5bb9";
+var formValidator_oncorrect="\u8f93\u5165\u6b63\u786e";
+var inputValidator_onerror="\u8f93\u5165\u9519\u8bef";
+var compareValidator_onerror="\u8f93\u5165\u9519\u8bef";
+var regexValidator_onerror="\u8f93\u5165\u7684\u683c\u5f0f\u4e0d\u6b63\u786e";
+var functionValidator_onerror="\u8f93\u5165\u9519\u8bef";
+var expressionValidator_onerror="\u8f93\u5165\u9519\u8bef";

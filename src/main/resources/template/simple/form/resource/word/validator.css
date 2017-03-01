@@ -1,0 +1,124 @@
+.fv_tooltip{
+	width:350px; 
+	color:#000;
+	font:lighter 12px Arial,sans-serif;
+	text-decoration:none;
+	text-align:center
+}
+.fv_tooltip span.top{padding: 30px 8px 0; background: url(bt.gif) no-repeat top}
+.fv_tooltip b.bottom{padding:3px 8px 8px;color: #548912; background: url(bt.gif) no-repeat bottom}
+
+.onShow{
+	background:url(onShow.gif) no-repeat; 
+	padding-left:25px; 
+	position:absolute;
+	top:-4px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+	text-align:left; 
+}
+.onFocus{
+	background:url(onFocus.gif) no-repeat; 
+	padding-left:25px; 
+	position:absolute;
+	top:-4px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+	text-align:left; 
+}
+.onError
+{
+	background:url(onError.gif) no-repeat; 
+	padding-left:25px; 
+	position:absolute;
+	top:-4px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+	text-align:left; 
+}
+.onSuccess
+{
+	background:url(onCorrect.gif) no-repeat; 
+	padding-left:25px; 
+	position:absolute;
+	top:-4px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+	text-align:left; 
+}
+.onCorrect
+{
+	background: url(onCorrect.gif) no-repeat;
+	padding-left:25px;
+	position:absolute;
+	top:-4px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+	text-align:left; 
+}
+.onLoad
+{
+	background:url(onLoad.gif) no-repeat 3px 3px; 
+	padding-left:25px; 
+	position:absolute;
+	top:-4px;
+	font-size: 12px;
+	line-height:22px; 
+	vertical-align:middle;
+	text-align:left; 
+}
+
+.onShowId{
+    border-color: #CCCCCC;
+    color: #666666;
+}
+.onFocusId{
+    color: #666666;
+}
+.onErrorId
+{
+	border-style: solid;
+    border-width: 1px;
+    border-color: #DA1A1B;
+    color: #DA1A1B;
+}
+.onSuccessId
+{
+    border-color: #C0C0C0;
+    color: #39A0EA;
+}
+.onCorrectId
+{
+    color: #39A0EA;
+}
+.onLoadId
+{
+    border-color: #CCCCCC;
+    color: #666666;
+}
+
+.formValidateTip
+{
+    position:absolute;
+    padding:10px 5px 10px 5px;
+	background:transparent;
+	text-align:left; 
+}
+.fv_iframe
+{
+	position:absolute;
+	z-index:56001;
+	width:expression(this.nextSibling.offsetWidth);
+	height:expression(this.nextSibling.offsetHeight);
+	top:expression(this.nextSibling.offsetTop);
+	left:expression(this.nextSibling.offsetLeft);
+	filter:Alpha(Opacity=0);
+	opacity:0.7;
+	-khtml-opacity: 0.7;
+	-moz-opacity: 0.7;
+}

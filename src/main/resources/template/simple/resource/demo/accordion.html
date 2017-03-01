@@ -1,0 +1,60 @@
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+<title>jQuery EasyUI</title>
+<link rel="stylesheet" type="text/css" href="../skin/icon.css">
+	<link rel="stylesheet" type="text/css" href="../skin/default/accordion.css">
+	<link rel="stylesheet" type="text/css" href="../skin/default/panel.css">
+	
+	<script type="text/javascript" src="../jquery.js"></script>
+	<script type="text/javascript" src="../plugins/jquery.accordion.js"></script>
+	<script type="text/javascript" src="../plugins/jquery.panel.js"></script>
+	
+<script type="text/javascript" src="../plugins/easyloader.js"></script>
+	<script type="text/javascript" src="../plugins/jquery.parser.js"></script>
+	
+	<script type="text/javascript">
+		function select(){
+			$('#aa').accordion('select','Title1');
+		}
+		var idx = 1;
+		function add(){
+			$('#aa').accordion('add',{
+				title:'New Title'+idx,
+				content:'New Content'+idx
+			});
+			idx++;
+		}
+		function remove(){
+			var pp = $('#aa').accordion('getSelected');
+			if (pp){
+				var title = pp.panel('options').title;
+				$('#aa').accordion('remove',title);
+			}
+		}
+	</script>
+</head>
+<body>
+	<div title="aaaaaaaaa" class="icon-ok" >
+		aaa
+	</div>
+	<h1>Accordion</h1>
+	<div style="margin-bottom: 10px;">
+		<a href="#" onclick="select()">select</a>
+		<a href="#" onclick="add()">add</a>
+		<a href="#" onclick="remove()">remove</a>
+	</div>
+	<div id="aa" class="rainbow-ui-accordion" style="width:700px;height:300px;">
+		<div title="Title1" icon="icon-ok" style="overflow:auto;padding:10px;">
+			<h3 style="color:#0099FF;">Accordion for jQuery</h3>
+			<p>Accordion is a part of easyui framework for jQuery. It lets you define your accordion component on web page more easily.</p>
+		</div>
+		<div title="Title2" icon="icon-reload" selected="true" style="padding:10px;">
+			content2
+		</div>
+		<div title="Title3">
+			content3
+		</div>
+	</div>
+</body>
+</html>

@@ -1,0 +1,345 @@
+*{
+	font-size: 12px;
+	
+}
+
+/*
+body边框  #F6FAFC
+*/
+HTML,BODY {
+	 BACKGROUND: #FFFFFF; margin-left: 0px;margin-right: 0px;margin-top: 0px;margin-bottom: 0px;
+	 padding:0px;border:0px;
+	 overflow:auto;
+	 text-align:center;
+}
+
+#top {
+	text-align:left;
+	margin:auto;
+	width:700px;
+}
+.text_area {
+	font-family: "Verdana";
+	font-size: 9pt;
+	text-decoration: none;
+	font-style: normal;
+	display: compact;
+	color: #666666;
+	background-color: #FFFFFF;
+	padding: 2;
+    background-image: url('../images/textfield.gif');
+    background-repeat: no-repeat; 
+    border-left: 1 solid #808080; 
+    border-right: 1 solid #C0C0C0; 
+    border-top: 1 solid #808080; 
+    border-bottom: 1 solid #C0C0C0;
+}
+
+#inputtopic {
+	font-family: "Verdana";
+	font-size: 9pt;
+	text-decoration: none;
+	font-style: normal;
+	display: compact;
+	color: #666666;
+	background-color: #FFFFFF;
+	padding: 2;
+    background-image: url('../images/textfield.gif');
+    background-repeat: no-repeat; 
+    border-left: 1 solid #808080; 
+    border-right: 1 solid #C0C0C0; 
+    border-top: 1 solid #808080; 
+    border-bottom: 1 solid #C0C0C0;
+}
+
+#hashmap_inputtopic {
+	font-family: "Verdana";
+	font-size: 9pt;
+	text-decoration: none;
+	font-style: normal;
+	display: compact;
+	color: #666666;
+	background-color: #FFFFFF;
+	padding: 2;
+    background-image: url('../images/textfield.gif');
+    background-repeat: no-repeat; 
+    border-left: 1 solid #808080; 
+    border-right: 1 solid #C0C0C0; 
+    border-top: 1 solid #808080; 
+    border-bottom: 1 solid #C0C0C0;
+}
+
+.news_title
+{
+	FILTER: glow(color="#828080",strength=2); 
+	POSITION: relative;
+ 	WIDTH: 350px;
+	font-size:15pt;
+	letter-spacing: 6pt;
+	color:#FEF0D3;
+	LINE-HEIGHT: 150%;
+	font-family: "黑体,Impact";
+} 
+#pagebottom {
+	text-align:left;
+	margin:auto;
+	width:660px;
+}
+
+.borderStyle{
+	background-image: url('../images/chinatelecom100.jpg');
+	background-repeat: no-repeat;
+	background-position: left top;
+	border: 1px solid #A8A4A4;
+}
+
+.qry_title {
+	font-size: 9pt;
+	color: #A82B00;
+	background-color: #F1F4E3;
+}
+
+.rp-button{
+	width: 79px; 
+	height: 22px; 
+	background-image: url('../images/fine_button_blue1.gif');
+	background-repeat: no-repeat; 
+	color: #FFFFFF; 
+	background-color: transparent;
+	font-size: 10pt; 
+	letter-spacing: 1;
+	cursor: hand;
+	border-style: solid; 
+	border-width: 0; 
+	background-position: center 50%;
+	
+}
+
+.rp-scrollbar{
+	scrollbar-face-color: #E7E7E7;
+    scrollbar-highlight-color: #FFFFFF;
+    scrollbar-shadow-color: #DEE3E7;
+    scrollbar-3dlight-color: #D1D7DC;
+    scrollbar-arrow-color:  #000000;
+    scrollbar-track-color: #EFEFEF;
+    scrollbar-darkshadow-color: #D9D2BB;
+}
+
+
+.input_title {
+	font-size: 10pt;
+	color: #A82B00;
+	background-color: #F1F4E3;
+}
+
+.index_title
+{
+	FILTER: glow(color="#FFDD95",strength=1); 
+	POSITION: relative;
+	height:1;
+	WIDTH: 200;
+	font-size:14pt;
+	letter-spacing: 3pt;
+	color:#996600;
+	LINE-HEIGHT: 110%;
+}   
+
+/*帮助区*/
+.rp-help-table{
+	width: 100%;
+	background-color:#F5F5F5;
+	border-color: #BFBDBD #BFBDBD #BFBDBD #BFBDBD; border-style: solid; border-top-width: 1px; border-right-width: 1px; border-bottom-width: 0px; border-left-width: 0px;
+	
+}
+
+/*帮助区 左边表格样式*/
+.rp-help-table-td-left{
+	 border-bottom: 1 solid #BFBDBD; border-left: 1 solid #BFBDBD; border-right: 0 solid #ffffff; border-top: 0 solid #ffffff;
+	 white-space:nowrap;
+	 background: #E6F0FD;
+	 text-align: center;
+	 padding: 2px;
+	 width: 15%;
+	 padding: 5px;
+}
+
+/*帮助区 右边表格样式*/
+.rp-help-table-td-right{
+	 border-bottom: 1 solid #BFBDBD; border-left: 1 solid #BFBDBD; border-right: 0 solid #ffffff; border-top: 0 solid #ffffff;
+	 text-align: left;
+	 padding: 2px;
+	 width: 85%;
+	 padding: 5px;
+	 word-break:break-all; 
+}
+
+/*
+form点位为零  
+*/
+FORM{
+	margin: 0px;	
+}
+
+/*
+链接样式 
+*/
+A:link {
+	COLOR: #003399; TEXT-DECORATION: none;  
+}
+A:visited {
+	COLOR: #003399; TEXT-DECORATION: none;  
+}
+A:hover {
+	COLOR: #ff9900; TEXT-DECORATION: underline;  
+}
+
+
+/*
+按钮样式 
+*/
+.sys-btn{
+	border: 1px solid #608aa3 !important;
+	width: auto !important;
+	height: 24px !important;
+	border-spacing:5px;
+	padding: 4px 3px;
+	line-height: normal !important;
+	background: url(../images/btn-1.gif) repeat-x;
+	background-color: #fff;
+	cursor:pointer;
+	white-space:nowrap;
+	star:expression(css_sys_btn_setbg(this)) ;
+}
+a.sys-btn:hover{
+	
+	border: 1px solid #608aa3 !important;
+	width: auto !important;
+	height: 24px !important;
+	padding: 4px 3px;
+	line-height: normal !important;
+	background: url(../images/btn-2.gif) repeat-x;
+	background-color: #fff;
+	cursor:pointer;
+	white-space:nowrap;
+	font: #000000;
+	COLOR: #000000; TEXT-DECORATION: none;  
+}
+a.sys-btn:link {
+	COLOR: #000000; TEXT-DECORATION: none;  
+}
+a.sys-btn:visited {
+	COLOR: #000000; TEXT-DECORATION: none;  
+}
+
+a.sys-btn:visited {
+	COLOR: #000000; TEXT-DECORATION: none;  
+}
+a.sys-btn:link {
+	COLOR: #000000; TEXT-DECORATION: none;  
+}
+.sys-btn-over{
+	border: 1px solid #608aa3 !important;
+	width: auto !important;
+	height: 24px !important;
+	padding: 4px 3px;
+	line-height: normal !important;
+	background: url(../images/btn-2.gif) repeat-x;
+	background-color: #fff;
+	cursor:pointer;
+	white-space:nowrap;
+	font: #000000;
+	COLOR: #000000; TEXT-DECORATION: none;
+	
+}
+.sys-btn-down{
+	border: 1px solid #608aa3 !important;
+	width: auto !important;
+	height: 24px !important;
+	padding: 4px 3px;
+	line-height: normal !important;
+	background: url(../images/btn-3.gif) repeat-x;
+	background-color: #fff;
+	cursor:pointer;
+	white-space:nowrap;
+}
+
+/*
+标题类样式
+*/
+.sys-title{
+	height: 25px;
+	background-image: url(../images/title-bg.gif);
+	background-repeat: repeat-x;
+	/*background-position:0px -45px;*/
+	color: #666666;
+	font-weight:bold;
+	
+}
+
+/*
+用于增删改等输入表单的表格样式
+*/
+.sys-inputTable{
+ 
+ border-color:#99BBE8;
+
+ border-top:1pt solid #99BBE8; 
+ border-bottom:0pt solid #99BBE8; 
+ border-left:1pt solid #99BBE8; 
+ border-right:0pt solid #99BBE8;
+ 
+}
+.sys-inputTable-td{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ffffff #a9bfd3 #a9bfd3 #ffffff;
+	background-color:#f1f3f5;
+	height: 25;min-height: 25;
+}
+.sys-inputTable-td-left{
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ffffff #a9bfd3 #a9bfd3 #ffffff;
+	background-color:#FFF8DC;
+	height: 25;min-height: 25;
+	
+}
+
+
+/*
+用于数据列表表格的样式
+*/
+.sys-listTable{
+}
+
+.sys-listTable-td{
+	height: 25px;
+	/**
+	FONT: 12px 宋体;
+	**/
+	FONT: 12px ;
+	border-bottom:1pt solid #99BBE8;
+	border-right:1pt solid #eeeccc;
+	/*star:expression(css_tab_body_format_orange(this)) ;*/
+}
+
+.sys-listTable-th{
+	height: 25px;
+	/**
+	FONT: 12px 宋体;
+	**/
+	FONT: 12px ;
+	border-width: 1px;
+	border-style: solid;
+	border-color: #ffffff #a9bfd3 #a9bfd3 #ffffff;
+	position: relative;
+	background: url(../images/listTable_thead-bg.gif) repeat-x left top;
+	text-align: center;
+}
+
+/*
+用于文本输入框样式
+*/
+.sys-text-area{
+	
+}

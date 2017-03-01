@@ -1,0 +1,75 @@
+.khPage1{
+	margin: 4px 0px!important;
+	padding: 0px !important;
+	font-size: 12px;
+	width: 100%;
+}
+
+/* \u5b58\u653e \u9875\u7801\uff0c\u6bcf\u9875\u663e\u793a\u6761\u6570 \u5757 */
+.khPage1 .page{
+	float: left;
+	font-size: 12px;
+	font-family: "\u5b8b\u4f53";
+	background-image: url("../images/table_icon.gif");
+	background-position: left center;
+	background-repeat: no-repeat;
+	text-indent: 20px;
+}
+
+.khPage1 .blue{
+	display: inline;
+}
+
+.khPage1 .blueSimple{
+	display: none;	
+}
+
+
+.khPage1 .page label{
+	display: inline-block;
+	float: left;
+	margin-top: 4px;
+}
+
+.khPage1 .page select{
+	font-size: 12px;
+	float: left;
+	margin-left: 4px;
+	font-weight: bold;	
+}
+
+/* \u7ffb\u9875\u6309\u94ae\u7b49 */
+.khPage1 .pageBtn{
+	float: right;
+}
+
+.khPage1 .pageBtn a{
+	background-image: url("../images/debugBtn.gif");
+	background-repeat: no-repeat;
+	width: 25px;
+	height: 20px;
+	display: block;
+	float: left;	
+}
+
+.khPage1 .pageBtn a img{
+	display: none;
+}
+
+.khPage1 .pageBtn .export img{
+	display: block;	
+}
+
+.khPage1 .pageBtn img{
+	float: left;
+	margin-right: 2px;
+}
+
+.khPage1 .pageBtn input{
+	float: left;
+	height: 20px;
+	/*font-weight: bold;*/
+	font-size: 12px;
+	line-height: 16px;
+	padding: 0px 2px;
+}

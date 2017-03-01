@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>jQuery UI Button - Default functionality</title>
+  <script src="../jquery.js"></script>
+  <script src="../plugins/jquery.ui.core.js"></script>
+  <script src="../plugins/jquery.ui.widget.js"></script>
+  <script src="../plugins/jquery.ui.date.js"></script>
+    <script src="../plugins/WdatePicker/WdatePicker.js"></script>
+  <link rel="stylesheet" href="../demos.css">
+  <script>
+  $(function() {
+    $( "#atest").date({
+    readOnly : true,
+    isShowWeek : false,
+    skin : 'default',
+    dateFmt: 'yyyy-mm-dd',
+    minDate:'2011-01-31'
+  });
+    $( "#atest2").date();
+  });
+  </script>
+</head>
+<body>
+
+<input type="text" id="atest" name="atest" >
+<input type="text" id="atest2" name="atest">
+</body>
+</html>

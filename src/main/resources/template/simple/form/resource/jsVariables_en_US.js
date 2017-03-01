@@ -1,0 +1,9 @@
+var ajaxValidator_onwait="Is waiting for the server to return data";
+var ajaxValidator_onerror="Server check failed";
+var formValidator_onfocus="Please input the content";
+var formValidator_oncorrect="Input correct";
+var inputValidator_onerror="Input errors";
+var compareValidator_onerror="Input errors";
+var regexValidator_onerror="Format entered is incorrect";
+var functionValidator_onerror="Input errors";
+var expressionValidator_onerror="Input errors";

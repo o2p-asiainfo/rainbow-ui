@@ -1,0 +1,44 @@
+.simplepage {
+}
+.jumpBtn {
+    background: -webkit-linear-gradient(top,#ff6100 0,#ff8500 100%);
+    background: -moz-linear-gradient(top,#ff6100 0,#ff8500 100%);
+    background: -o-linear-gradient(top,#ff6100 0,#ff8500 100%);
+    background: linear-gradient(to bottom,#ff6100 0,#ff8500 100%);
+    background-repeat: repeat-x;
+    filter: progid:DXImageTransform.Microsoft.gradient(startColorstr=#ff6100,endColorstr=#ff8500,GradientType=0);
+    border: 1px solid #fcaa53;
+    color:#ffffff;
+}
+.recordList-page{
+   color: #666666;
+   line-height: 15px;
+   padding: 20px 0;
+   text-align: center;
+}
+.recordList-page-inner {
+    display: inline-block;
+}
+.recordList-page-inner a, .recordList-page-inner b {
+    height: 15px;
+    line-height: 15px;
+}
+.recordList-page-inner a, .recordList-page-inner b {
+    margin-left: 5px;
+    padding: 0 5px;
+}
+.recordList-page-inner a {
+    background: none repeat scroll 0 0 #FFFFFF;
+    border: 1px solid #efefef;
+    text-decoration: none;
+    color:#666666;
+}
+.recordList-page-inner a:hover {
+    border-color: #fcc676;
+}
+.recordList-page-inner b {
+    background: none repeat scroll 0 0 #ff9900;
+    border: 1px solid #ff9900;
+    color: #FFFFFF;
+}
+
